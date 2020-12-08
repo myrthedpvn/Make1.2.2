@@ -16,7 +16,7 @@ __status__ = "Development"
 
 def main():
     word = input("Give me a random word\n")
-    print(word[::-1])
+    print(word[::-1])                                                       #To print the word backwords
 
 if __name__ == '__main__':  # code to execute if called from command-line
     main()
